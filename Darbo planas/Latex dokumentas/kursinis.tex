@@ -1,0 +1,114 @@
+\documentclass{VUMIFPSkursinis}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{longtable}
+
+\usepackage{enumitem}
+%PAKEISTA, tarpai tarp sąrašo elementų
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+% Titulinio aprašas
+\university{Vilniaus universitetas}
+\faculty{Matematikos ir informatikos fakultetas}
+\department{Programų sistemų bakalauro studijų programa}
+\papertype{Bakalauro baigiamasis darbas}
+\title{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų tinklalapyje}
+\titleineng{The Usability of the Search Process and Presenting its Results to the User for VUH Santaros klinikos website}
+\status{4 kurso 3 grupės studentas}
+\author{Tomas Kiziela}
+% \secondauthor{Vardonis Pavardonis}   % Pridėti antrą autorių
+\supervisor{doc. Kristina Lapin}
+\date{Vilnius – \the\year}
+
+% Nustatymai
+% \setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
+\bibliography{bibliografija}
+
+\begin{document}
+	
+% PAKEISTA	
+\maketitle
+\cleardoublepage\pagenumbering{arabic}
+\setcounter{page}{2}
+
+%TURINYS
+\tableofcontents
+
+
+
+\sectionnonum{Įvadas}
+Šiame darbe tyrinėjami sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe buvo apibrėžti reikalavimai sistemai gauti iš naudotojų poreikių ir panaudojamumo analizės ir padaryti architektūriniai sprendimai. Šis darbas yra autoriaus kursinio darbo tesinys\cite{Kursinis}.
+
+Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
+
+Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosčio ryšio kainą, 3 vieta Europos Sąjungoje (ES), o naujienas internetu skaito net 93\% gyventojų, daugiau nei bet kurioje kitoje ES valstybėje\cite{InternetasLt}. Iš to matosi, kad lietuviai turi prieinamą internetą ir dažnai jį pasitelkia kaip informacijos šaltinį. Technologiškai pažengusiose valstybėse su gerai išvystyta interneto infrastruktūra gyventojai dažnai ieško informacijos apie sveikatą internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}, tikėtina, kad tai galioja ir Lietuvoje.
+
+VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų\cite{VulSkApieMusLt}. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
+
+Šio \textbf{darbo tikslas} yra apibrėžti reikalavimus ir projektavimo gaires sistemai, suprojektuoti puslapių architektūrą, navigacijos meniu ir pasirinkti serverio architektūros modelį. 
+
+
+
+%Navigacija pagrindiniame puslapyje yra virš raukšlės (angliškai „above the fold“), kur į ją atkreips dėmesį daug daugiau vartotojų \cite{Scrolling}
+
+
+
+
+
+%Rezultatų ir išvadų dalyje turi būti aiškiai išdėstomi pagrindiniai darbo
+%rezultatai (kažkas išanalizuota, kažkas sukurta, kažkas įdiegta) ir pateikiamos
+%išvados (daromi nagrinėtų problemų sprendimo metodų palyginimai, teikiamos
+%rekomendacijos, akcentuojamos naujovės).
+
+
+%% PAKEISTAS PAVADINIMAS Į 'Šaltiniai'
+\printbibliography[heading=bibintoc, title=Šaltiniai]  % Šaltinių sąraše nurodoma panaudota
+% literatūra, kitokie šaltiniai. Abėcėlės tvarka išdėstomi darbe panaudotų
+% (cituotų, perfrazuotų ar bent paminėtų) mokslo leidinių, kitokių publikacijų
+% bibliografiniai aprašai.  Šaltinių sąrašas spausdinamas iš naujo puslapio.
+% Aprašai pateikiami netransliteruoti. Šaltinių sąraše negali būti tokių
+% šaltinių, kurie nebuvo paminėti tekste.
+
+% \sectionnonum{Sąvokų apibrėžimai}
+%\sectionnonum{Santrumpos}
+%Sąvokų apibrėžimai ir santrumpų sąrašas sudaromas tada, kai darbo tekste
+%vartojami specialūs paaiškinimo reikalaujantys terminai ir rečiau sutinkamos
+%santrumpos.
+
+\appendix  % Priedai
+% Prieduose gali būti pateikiama pagalbinė, ypač darbo autoriaus savarankiškai
+% parengta, medžiaga. Savarankiški priedai gali būti pateikiami ir
+% kompaktiniame diske. Priedai taip pat numeruojami ir vadinami. Darbo tekstas
+% su priedais susiejamas nuorodomis.
+
+
+
+
+%\section{Eksperimentinio palyginimo rezultatai}
+% tablesgenerator.com - converts calculators (e.g. excel) tables to LaTeX
+%\begin{table}[H]\footnotesize
+%  \centering
+%  \caption{Lentelės pavyzdys}
+%  {\begin{tabular}{|l|c|c|} \hline
+%    Algoritmas & $\bar{x}$ & $\sigma^{2}$ \\
+%    \hline
+%    Algoritmas A  & 1.6335    & 0.5584       \\
+%    Algoritmas B  & 1.7395    & 0.5647       \\
+%    \hline
+%  \end{tabular}}
+%  \label{tab:table example}
+%\end{table}
+
+\end{document}
