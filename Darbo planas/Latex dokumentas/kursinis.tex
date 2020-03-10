@@ -23,8 +23,8 @@
 \university{Vilniaus universitetas}
 \faculty{Matematikos ir informatikos fakultetas}
 \department{Programų sistemų bakalauro studijų programa}
-\papertype{Bakalauro baigiamasis darbas}
-\title{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų tinklalapyje}
+\papertype{Bakalauro baigiamojo darbo planas}
+\title{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų svetainėje}
 \titleineng{The Usability of the Search Process and Presenting its Results to the User for VUH Santaros klinikos website}
 \status{4 kurso 3 grupės studentas}
 \author{Tomas Kiziela}
@@ -44,24 +44,52 @@
 \setcounter{page}{2}
 
 %TURINYS
-\tableofcontents
+%\tableofcontents
 
 
 
-\sectionnonum{Įvadas}
-Šiame darbe tyrinėjami sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe buvo apibrėžti reikalavimai sistemai gauti iš naudotojų poreikių ir panaudojamumo analizės ir padaryti architektūriniai sprendimai. Šis darbas yra autoriaus kursinio darbo tesinys\cite{Kursinis}.
-
-Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
-
-Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosčio ryšio kainą, 3 vieta Europos Sąjungoje (ES), o naujienas internetu skaito net 93\% gyventojų, daugiau nei bet kurioje kitoje ES valstybėje\cite{InternetasLt}. Iš to matosi, kad lietuviai turi prieinamą internetą ir dažnai jį pasitelkia kaip informacijos šaltinį. Technologiškai pažengusiose valstybėse su gerai išvystyta interneto infrastruktūra gyventojai dažnai ieško informacijos apie sveikatą internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}, tikėtina, kad tai galioja ir Lietuvoje.
-
-VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų\cite{VulSkApieMusLt}. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
-
-Šio \textbf{darbo tikslas} yra apibrėžti reikalavimus ir projektavimo gaires sistemai, suprojektuoti puslapių architektūrą, navigacijos meniu ir pasirinkti serverio architektūros modelį. 
+\sectionnonum{Temos aktualumas}
+Vilniaus universiteto ligoninė (toliau VUL) Santaros klinikos yra viena didžiausių Lietuvos ligoninių, joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų \cite{VulSkApieMusLt}. Tyrimai rodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn} ir pasaulyje vis didesnė dalis žmonių ieško informacijos apie sveikatą naudodamiesi mobiliaisiais įrenginiais \cite{EmergingmHealthEn}. VUL Santaros klinikos turi internetinę svetainę „santa.lt“, kurioje pateikiama informacija aktuali ligoninės pacientams ir kitiems ligoninės veikla suinteresuotiems asmenims. Nors nėra tikslių svetainės lankomumo statistikų kaip apsilankymai per metus, jeigu bent 1\% VUL pacientų ieško informacijos ligoninės internetinėje svetainėje, tai jau 10 tūkstančių lankytojų per metus. Tačiau dabartinėje svetainėje yra problemų, kurios gali trukdyti lankytojams rasti informaciją, pavyzdžiui, navigacija reikalauja daug paspaudimų ir neaiškiai apibūdina puslapių turinį, išėjus iš pagrindinio puslapio sunku rasti registraciją pas gydytoją, o paieškos sistema neintuityvi, užklausos dažnai negražina ieškomų rezultatų.
 
 
+%Šiame darbe tyrinėjami sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe buvo apibrėžti reikalavimai sistemai gauti iš naudotojų poreikių ir panaudojamumo analizės ir padaryti architektūriniai sprendimai. Šis darbas yra autoriaus kursinio darbo tesinys\cite{Kursinis}.
 
-%Navigacija pagrindiniame puslapyje yra virš raukšlės (angliškai „above the fold“), kur į ją atkreips dėmesį daug daugiau vartotojų \cite{Scrolling}
+%Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
+
+%Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosčio ryšio kainą, 3 vieta Europos Sąjungoje (ES), o naujienas internetu skaito net 93\% gyventojų, daugiau nei bet kurioje kitoje ES valstybėje\cite{InternetasLt}. Iš to matosi, kad lietuviai turi prieinamą internetą ir dažnai jį pasitelkia kaip informacijos šaltinį. Technologiškai pažengusiose valstybėse su gerai išvystyta interneto infrastruktūra gyventojai dažnai ieško informacijos apie sveikatą internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}, tikėtina, kad tai galioja ir Lietuvoje.
+
+%VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų\cite{VulSkApieMusLt}. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
+
+\sectionnonum{Darbo tikslas ir uždaviniai}
+%\pagebreak
+\subsection*{Darbo tikslas}
+Šio darbo tikslas sukurti „santa.lt“ svetainės prototipą, kuriame būtų išpildomi iškelti reikalavimai pagal rastus naudotojų poreikius ir panaudojamumo trūkumus ir būtų pritaikytos šiuolaikinės svetainių kūrimo metodikos.
+
+\subsection*{Uždaviniai:}
+\begin{enumerate}
+\item \textbf{(kursinis)} Identifikuoti naudotojų poreikius remiantis literatūros šaltiniais ir internetinių puslapių lankomumo informacija
+\item \textbf{(kursinis)} Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
+\item \textbf{(kursinis)} Atlikti svetainės panaudojamumo analizę pagal išskirtus kriterijus
+\item \textbf{(kursinis)} Sukurti galimo sprendimo maketą
+
+\item \textbf{(projektinis)} Identifikuoti reikalavimus sistemai
+\item \textbf{(projektinis)} Suprojektuoti puslapių architektūrą ir navigaciją
+
+\item Išnagrinėti paieškos sistemos funkcijų implementacijas galinčias paspartinti informacijos paiešką, pavyzdžiui rezultatų filtravimas įvairiais kriterijais, ir šių funkcijų atvaizdavimą naudotojui suprantamu būdu.
+\item Rasti metodikas ir technologijas tinkamiausias svetainės kūrimui ir leidžiančias pritaikyti svetainę įvairiems įrenginiams.
+\item Suprogramuoti svetainės prototipą.
+\end{enumerate}
+
+\sectionnonum{Darbo atlikimo procesas ir laukiami rezultatai}
+\subsection*{Darbo atlikimo procesas}
+Kursinio darbo \cite{Kursinis} metu buvo rasti naudotojų poreikiai remiantis svetainėje skelbiamais peržiūrų skaičiais \cite{VulSkApieMusLt, VulSkKaipMusRastiLt} ir svetainių eismo analizės įrankiu \cite{AlexaSantaEn} ir buvo identifikuoti paieškos sistemos, navigacijos ir informacijos architektūros ir bendri panaudojamumo trūkumai remiantis David Travis panaudojamumo gairėmis \cite{SearchGuidelinesEn, NavigationAndIAGuidelinesEn} ir Jakob Nielsen panaudojamumo euristikomis \cite{NielsenHeuristicsEn}. Projektinio darbo \cite{Projektinis} metu buvo iškelti reikalavimai svetainei ir apibrėžtos projektavimo gairės. Remiantis gairėmis ir vartotojo sąsajos ekspertų nuomone \cite{TopVsLeftNav, TopVsLeftNav2, LeftNav} pasirinkti architektūriniai sprendimai trūkumams spręsti.
+
+Bakalauro baigiamajame darbe bus nagrinėjami literatūros šaltiniai ir kitų svetainių paieškos sistemos pavyzdžiai siekiant identifikuoti naudotojams naudingų paieškos funkcijų implementacijos būdus. Remiantis literatūra bus parinktos metodikos ir technologijos labiausiai tinkančios ligoninės svetainės kūrimui. Galiausiai, bus programuojamas „santa.lt“ svetainės prototipas remiantis iškeltais reikalavimais, projektavimo gairėmis, funkcijų implementacijos pavyzdžiais, kūrimo metodikomis ir naudojant pasirinktas technologijas.
+
+\subsection*{Laukiami rezultatai}
+Darbo pabaigoje autorius tikisi, kad sukurtas prototipas bus patogesnis svetainės lankytojams negu dabartinė svetainė ir bus galima praplėsti prototipą arba panaudoti kaip rekomendaciją svetainės atnaujinimui.
+
+%\sectionnonum{Darbo struktūra}
 
 
 
