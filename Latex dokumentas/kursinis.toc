@@ -2,41 +2,39 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Įvadas}{3}% 
+\contentsline {section}{Padėkos asmenims ir organizacijoms}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Panaudojamumo analizės rezultatai}{4}% 
+\contentsline {section}{Santrauka}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sprendimo maketai}{7}% 
+\contentsline {section}{Summary}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Reikalavimai ir projektavimo gairės}{8}% 
+\contentsline {section}{Įvadas}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Funkciniai reikalavimai paieškos sistemai}{8}% 
+\contentsline {section}{Panaudojamumo analizės rezultatai}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.}Nefunkciniai reikalavimai paieškos sistemai}{8}% 
+\contentsline {section}{Sprendimo maketai}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.}Projektavimo gairės navigacijos ir informacijos architektūrai}{9}% 
+\contentsline {section}{\numberline {1.}Reikalavimai ir projektavimo gairės}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.}Papildoma sistemos projektavimo gairė}{9}% 
+\contentsline {subsection}{\numberline {1.1.}Funkciniai reikalavimai paieškos sistemai}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Projektavimas}{10}% 
+\contentsline {subsection}{\numberline {1.2.}Nefunkciniai reikalavimai paieškos sistemai}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Puslapio architektūra}{10}% 
+\contentsline {subsection}{\numberline {1.3.}Projektavimo gairės navigacijos ir informacijos architektūrai}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Navigacijos meniu}{11}% 
+\contentsline {subsection}{\numberline {1.4.}Papildoma sistemos projektavimo gairė}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Serverio architektūra}{13}% 
+\contentsline {section}{\numberline {2.}Projektavimas}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{15}% 
+\contentsline {subsection}{\numberline {2.1.}Puslapio architektūra}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{16}% 
+\contentsline {subsection}{\numberline {2.2.}Navigacijos meniu}{14}
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {subsection}{\numberline {2.3.}Serverio architektūra}{16}
 \defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{Rezultatai ir išvados}{18}
 \defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{Šaltiniai}{19}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -58,6 +56,14 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{17}% 
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Trys puslapių tipai}{18}% 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\MakeUppercase {Priedai}}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Trys puslapių tipai}{21}

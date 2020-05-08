@@ -1,11 +1,12 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6600 64-bit) (preloaded format=xelatex 2018.2.23)  8 MAY 2020 13:03
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6600 64-bit) (preloaded format=xelatex 2018.2.23)  8 MAY 2020 13:40
 entering extended mode
-**./kursinis.tex
-(kursinis.tex
+**./bakalaurinis.tex
+(bakalaurinis.tex
 LaTeX2e <2017-04-15>
 Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
-(VUMIFPSkursinis.cls
-Document Class: VUMIFPSkursinis 2015/02/03 1.0 VU MIF SE course work class
+(VUMIFPSbakalaurinis.cls
+Document Class: VUMIFPSbakalaurinis 2015/02/03 1.0 VU MIF SE bachelor thesis cl
+ass
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -1091,15 +1092,6 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count430
 \LT@p@ftn=\toks37
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
-Package: enumitem 2018/11/30 v3.6 Customized lists
-\enitkv@toks@=\toks38
-\labelindent=\skip118
-\enit@outerparindent=\dimen171
-\enit@toks=\toks39
-\enit@inbox=\box53
-\enitdp@description=\count431
-)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1116,25 +1108,25 @@ uanian.lbx,v 1.0 2015/02/05 20:21:28 niekas stable $
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'date=iso' requires 'seconds=true'.
-(biblatex)                Setting 'seconds=true' on input line 39.
+(biblatex)                Setting 'seconds=true' on input line 34.
 
-(kursinis.aux)
-\openout1 = `kursinis.aux'.
+(bakalaurinis.aux)
+\openout1 = `bakalaurinis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1142,63 +1134,63 @@ LaTeX Font Info:    ... okay on input line 39.
 .................................................
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 39.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 39.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 39.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 39.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 39.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 39.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 39.
-LaTeX Font Info:    Redeclaring math accent \check on input line 39.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 39.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 39.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 39.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 39.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 34.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 34.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 34.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 34.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 34.
+LaTeX Font Info:    Redeclaring math accent \check on input line 34.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 34.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 34.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 34.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 39.
+(Font)              `operators' in the math version `normal' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/texgyretermes(0)/m/n on input line 3
-9.
+4.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 39.
+(Font)              `operators' in the math version `bold' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/texgyretermes(0)/m/n on input line 
-39.
+34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/texgyretermes(0)/m/n --> TU/texgyretermes(0)/m/n on 
-input line 39.
+input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/texgyretermes(0)/m/it on input line
- 39.
+ 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/texgyretermes(0)/bx/n on input line
- 39.
+ 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 39.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 39.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/texgyretermes(0)/m/n --> TU/texgyretermes(0)/bx/n on
- input line 39.
+ input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/texgyretermes(0)/bx/it on input li
-ne 39.
+ne 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 39.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 39.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 34.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1247,199 +1239,85 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `kursinis.bcf'.
+\openout4 = `bakalaurinis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'kursinis.bbl' found.
-(kursinis.bbl
-LaTeX Font Info:    Try loading font information for U+msa on input line 146.
+Package biblatex Info: ... file 'bakalaurinis.bbl' found.
+(bakalaurinis.bbl
+LaTeX Font Info:    Try loading font information for U+msa on input line 90.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 146.
+LaTeX Font Info:    Try loading font information for U+msb on input line 90.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
-\c@lstlisting=\count432
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
+\c@lstlisting=\count431
  [1
 
-] (kursinis.toc)
+] [1
+
+] [2
+
+]
+[3
+
+] (bakalaurinis.toc)
 \tf@toc=\write5
-\openout5 = `kursinis.toc'.
+\openout5 = `bakalaurinis.toc'.
 
-
-[2
-
-
-] [3
-
-] [4
+ [4
 
 ] [5
 
 ] [6
 
-] [7
-
 ]
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 106.
+(caption)                outside box or environment on input line 109.
 See the caption package documentation for explanation.
 
 
-Underfull \vbox (badness 10000) detected at line 128
+Underfull \vbox (badness 10000) detected at line 131
  []
 
-[8]
-Overfull \hbox (6.8001pt too wide) in paragraph at lines 144--144
+[7]
+Overfull \hbox (6.8001pt too wide) in paragraph at lines 147--147
 []\TU/texgyretermes(0)/m/n/12 DS| 
  []
 
 
-Underfull \hbox (badness 4913) in paragraph at lines 150--150
+Underfull \hbox (badness 4913) in paragraph at lines 153--153
 []\TU/texgyretermes(0)/m/n/12 6) Atpažinimas ge-
  []
 
 
-Overfull \hbox (7.54764pt too wide) in paragraph at lines 142--157
+Overfull \hbox (7.54764pt too wide) in paragraph at lines 145--160
  [] 
  []
 
-[9]
+[8]
 File: img/PaieškosPrototipas.png Graphic file (type bmp)
 <img/PaieškosPrototipas.png>
 
-Overfull \hbox (6.32387pt too wide) in paragraph at lines 164--165
+Overfull \hbox (6.32387pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
 File: img/NavigacijosPrototipas.png Graphic file (type bmp)
 <img/NavigacijosPrototipas.png>
 
-Overfull \hbox (10.87383pt too wide) in paragraph at lines 171--172
+Overfull \hbox (10.87383pt too wide) in paragraph at lines 174--175
  [][] 
  []
 
-[10
+[9
 
-] [11
-
-] [12]
-File: img/PuslapioArchPagrindinisDabartinis.png Graphic file (type bmp)
-<img/PuslapioArchPagrindinisDabartinis.png>
-File: img/PuslapioArchPagrindinis.png Graphic file (type bmp)
-<img/PuslapioArchPagrindinis.png>
-File: img/PuslapioArchPagrindinisHorizontalus.png Graphic file (type bmp)
-<img/PuslapioArchPagrindinisHorizontalus.png>
- [13
-
-]
-File: img/PuslapioArchTurinys.png Graphic file (type bmp)
-<img/PuslapioArchTurinys.png>
-File: img/PuslapioArchPaieška.png Graphic file (type bmp)
-<img/PuslapioArchPaieška.png>
-File: img/NavigacijosMeniuDabartinis.png Graphic file (type bmp)
-<img/NavigacijosMeniuDabartinis.png>
- [14] [15]
-File: img/NavigacijosMeniuPakeistas.png Graphic file (type bmp)
-<img/NavigacijosMeniuPakeistas.png>
- [16]
-Underfull \hbox (badness 2134) in paragraph at lines 325--326
-[]\TU/texgyretermes(0)/m/n/12 Vienas iš populiariausių ir paprasčiausių archite
-ktūros modelių yra Modelis-Vaizdas-
- []
-
-[17] [18
-
-]
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 352
-.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-352.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-352.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 352
-.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 352
-.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'anglų' on input line 352
-.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 352--352
-[]\TU/texgyretermes(0)/m/n/12 Stack Exchange. Where we should not use mvc? 2015
-. \TU/texgyretermes(0)/m/sc/12 url\TU/texgyretermes(0)/m/n/12 : $[][][][][] [] 
-[] []
- []
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-[19
+] [10
 
 ]
 
@@ -1448,7 +1326,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-352.
+192.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1456,48 +1334,82 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-352.
+192.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[20]
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
+192.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
+192.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+[11
+
+]
 File: img/Pagrindinis.png Graphic file (type bmp)
 <img/Pagrindinis.png>
 
-Overfull \hbox (10.87383pt too wide) in paragraph at lines 374--375
+Overfull \hbox (10.87383pt too wide) in paragraph at lines 216--217
  [][] 
  []
 
 File: img/Turinys.png Graphic file (type bmp)
 <img/Turinys.png>
 
-Overfull \hbox (9.57384pt too wide) in paragraph at lines 380--381
+Overfull \hbox (9.57384pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
 File: img/Paieška.png Graphic file (type bmp)
 <img/Paieška.png>
 
-Overfull \hbox (9.57384pt too wide) in paragraph at lines 386--387
+Overfull \hbox (9.57384pt too wide) in paragraph at lines 228--229
  [][] 
  []
 
-[21
+[12
 
-] [22] [23] (kursinis.aux)
-Package logreq Info: Writing requests to 'kursinis.run.xml'.
-\openout1 = `kursinis.run.xml'.
+] [13] [14] (bakalaurinis.aux)
+Package logreq Info: Writing requests to 'bakalaurinis.run.xml'.
+\openout1 = `bakalaurinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24236 strings out of 427834
- 471886 string characters out of 3152461
- 970420 words of memory out of 3000000
- 27926 multiletter control sequences out of 15000+200000
+ 23870 strings out of 427834
+ 464942 string characters out of 3152461
+ 963474 words of memory out of 3000000
+ 27570 multiletter control sequences out of 15000+200000
  543222 words of font info for 91 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,12n,96p,10542b,7412s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,10546b,7408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (23 pages).
+Output written on bakalaurinis.pdf (15 pages).

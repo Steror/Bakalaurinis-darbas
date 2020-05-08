@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>kursinis.bcf</file>
+      <file>bakalaurinis.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>kursinis.bbl</file>
+      <file>bakalaurinis.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,19 +68,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>kursinis</infile>
+      <infile>bakalaurinis</infile>
     </cmdline>
     <input>
-      <file>kursinis.bcf</file>
+      <file>bakalaurinis.bcf</file>
     </input>
     <output>
-      <file>kursinis.bbl</file>
+      <file>bakalaurinis.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>kursinis.bbl</file>
+      <file>bakalaurinis.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>kursinis.bcf</file>
+      <file>bakalaurinis.bcf</file>
     </requires>
     <requires type="editable">
       <file>bibliografija.bib</file>
