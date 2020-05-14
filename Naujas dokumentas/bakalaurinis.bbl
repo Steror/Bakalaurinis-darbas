@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -19,14 +19,41 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{TopVsLeftNav}{online}{}
+      \name{author}{1}{}{%
+        {{hash=20f1aeb7819d7858684c898d1e98c1bb}{%
+           family={Anthony},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{fullhash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{bibnamehash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{authorbibnamehash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{authornamehash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \strng{authorfullhash}{20f1aeb7819d7858684c898d1e98c1bb}
+      \field{labelalpha}{Ant10}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Top Navigation vs Left Navigation: Which Works Better?}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://uxmovement.com/navigation/top-navigation-vs-left-navigation-which-works-better/
+      \endverb
+      \verb{url}
+      \verb https://uxmovement.com/navigation/top-navigation-vs-left-navigation-which-works-better/
+      \endverb
+    \endentry
     \entry{InternetUseByPublicHKEn}{article}{}
       \name{author}{6}{}{%
-        {{hash=39aa8980b565822fa2713c0e8cd1ed78}{%
+        {{hash=a99a666c7e3c1ae4701af1cd318cfe03}{%
            family={Chu},
            familyi={C\bibinitperiod},
            given={Joanna\bibnamedelima TW},
            giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=785f109accf302b2633ea5d06a0d4130}{%
+        {{hash=9426dd29bd8d8e427fe0d46bd1715261}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Man\bibnamedelima Ping},
@@ -41,12 +68,12 @@
            familyi={V\bibinitperiod},
            given={Kasisomayajula},
            giveni={K\bibinitperiod}}}%
-        {{hash=f55b650f0344a4876445c43e501055aa}{%
+        {{hash=4b346b9a7842697db73adab7cf1b5aeb}{%
            family={Lam},
            familyi={L\bibinitperiod},
            given={Tai\bibnamedelima Hing},
            giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=401c0bae379ae0d36f901c0ad3fe0153}{%
+        {{hash=fe5aba054916322042623baa47a1595d}{%
            family={Chan},
            familyi={C\bibinitperiod},
            given={Sophia\bibnamedelimb Siu\bibnamedelima Chee},
@@ -62,12 +89,12 @@
       \list{publisher}{1}{%
         {JMIR Publications}%
       }
-      \strng{namehash}{908a57dac6bae789deac61bac34a099a}
-      \strng{fullhash}{908a57dac6bae789deac61bac34a099a}
-      \strng{bibnamehash}{908a57dac6bae789deac61bac34a099a}
-      \strng{authorbibnamehash}{908a57dac6bae789deac61bac34a099a}
-      \strng{authornamehash}{908a57dac6bae789deac61bac34a099a}
-      \strng{authorfullhash}{908a57dac6bae789deac61bac34a099a}
+      \strng{namehash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{fullhash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{bibnamehash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{authorbibnamehash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{authornamehash}{f12ef8b877a1c08cb328e05470e1d11a}
+      \strng{authorfullhash}{f12ef8b877a1c08cb328e05470e1d11a}
       \strng{editorbibnamehash}{cc4d5cd3f7f5f49d26cc5f9fa08f2702}
       \strng{editornamehash}{cc4d5cd3f7f5f49d26cc5f9fa08f2702}
       \strng{editorfullhash}{cc4d5cd3f7f5f49d26cc5f9fa08f2702}
@@ -86,6 +113,35 @@
       \endverb
       \verb{url}
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743920/
+      \endverb
+    \endentry
+    \entry{TopVsLeftNav2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4a5f03cf9bbbcf004558096496570da8}{%
+           family={Ghinita},
+           familyi={G\bibinitperiod},
+           given={Ana-Maria},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{fullhash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{bibnamehash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{authorbibnamehash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{authornamehash}{4a5f03cf9bbbcf004558096496570da8}
+      \strng{authorfullhash}{4a5f03cf9bbbcf004558096496570da8}
+      \field{labelalpha}{Ghi18}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Vertical or Horizontal Navigation for your Dashboard?}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://blog.prototypr.io/vertical-or-horizontal-navigation-for-your-dashboard-3611ff8c1a57
+      \endverb
+      \verb{url}
+      \verb https://blog.prototypr.io/vertical-or-horizontal-navigation-for-your-dashboard-3611ff8c1a57
       \endverb
     \endentry
     \entry{InternetUseByPublicSAEn}{article}{}
@@ -152,6 +208,32 @@
       \field{pages}{152\bibrangedash 158}
       \range{pages}{7}
     \endentry
+    \entry{LeftNav}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6bbdd76eb82ccde3ef04f58ada03651b}{%
+           family={Patternfly},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{fullhash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{bibnamehash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{authorbibnamehash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{authornamehash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \strng{authorfullhash}{6bbdd76eb82ccde3ef04f58ada03651b}
+      \field{labelalpha}{Pat}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Vertical Navigation}
+      \verb{urlraw}
+      \verb https://www.patternfly.org/v3/pattern-library/navigation/vertical-navigation/index.html
+      \endverb
+      \verb{url}
+      \verb https://www.patternfly.org/v3/pattern-library/navigation/vertical-navigation/index.html
+      \endverb
+    \endentry
     \entry{SearchGuidelinesEn}{online}{}
       \name{author}{1}{}{%
         {{hash=2f7aff51b256956b777c52b0f014af67}{%
@@ -166,6 +248,7 @@
       \strng{authorbibnamehash}{2f7aff51b256956b777c52b0f014af67}
       \strng{authornamehash}{2f7aff51b256956b777c52b0f014af67}
       \strng{authorfullhash}{2f7aff51b256956b777c52b0f014af67}
+      \field{extraname}{1}
       \field{labelalpha}{Tra16}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
@@ -196,6 +279,7 @@
       \strng{authorbibnamehash}{2f7aff51b256956b777c52b0f014af67}
       \strng{authornamehash}{2f7aff51b256956b777c52b0f014af67}
       \strng{authorfullhash}{2f7aff51b256956b777c52b0f014af67}
+      \field{extraname}{2}
       \field{labelalpha}{Tra16}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
@@ -214,16 +298,16 @@
     \endentry
     \entry{VulSkApieMusLt}{online}{}
       \name{author}{1}{}{%
-        {{hash=388462be998545b5cb648fd2c7cabac9}{%
+        {{hash=c0043ee9204f56c4730b7ca65a5596b0}{%
            family={{Vilniaus universiteto ligoninės Santaros klinikos}},
            familyi={V\bibinitperiod}}}%
       }
-      \strng{namehash}{388462be998545b5cb648fd2c7cabac9}
-      \strng{fullhash}{388462be998545b5cb648fd2c7cabac9}
-      \strng{bibnamehash}{388462be998545b5cb648fd2c7cabac9}
-      \strng{authorbibnamehash}{388462be998545b5cb648fd2c7cabac9}
-      \strng{authornamehash}{388462be998545b5cb648fd2c7cabac9}
-      \strng{authorfullhash}{388462be998545b5cb648fd2c7cabac9}
+      \strng{namehash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{fullhash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{bibnamehash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{authorbibnamehash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{authornamehash}{c0043ee9204f56c4730b7ca65a5596b0}
+      \strng{authorfullhash}{c0043ee9204f56c4730b7ca65a5596b0}
       \field{labelalpha}{Vil19}
       \field{sortinit}{V}
       \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
@@ -241,7 +325,7 @@
     \endentry
     \entry{InternetasLt}{article}{}
       \name{author}{1}{}{%
-        {{hash=dcea76d56249d8df16f99a6a2d719d1e}{%
+        {{hash=368b2a94114e62e96979499bdc80d4e8}{%
            family={komitetas},
            familyi={k\bibinitperiod},
            given={Informacinės},
@@ -249,12 +333,12 @@
            prefix={visuomenės\bibnamedelima plėtros},
            prefixi={v\bibinitperiod\bibinitdelim p\bibinitperiod}}}%
       }
-      \strng{namehash}{dcea76d56249d8df16f99a6a2d719d1e}
-      \strng{fullhash}{dcea76d56249d8df16f99a6a2d719d1e}
-      \strng{bibnamehash}{dcea76d56249d8df16f99a6a2d719d1e}
-      \strng{authorbibnamehash}{dcea76d56249d8df16f99a6a2d719d1e}
-      \strng{authornamehash}{dcea76d56249d8df16f99a6a2d719d1e}
-      \strng{authorfullhash}{dcea76d56249d8df16f99a6a2d719d1e}
+      \strng{namehash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{fullhash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{bibnamehash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{authorbibnamehash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{authornamehash}{368b2a94114e62e96979499bdc80d4e8}
+      \strng{authorfullhash}{368b2a94114e62e96979499bdc80d4e8}
       \field{labelalpha}{vpkom18}
       \field{sortinit}{v}
       \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}

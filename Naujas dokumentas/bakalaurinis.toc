@@ -2,15 +2,31 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Įvadas}{5}
+\contentsline {section}{Įvadas}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Panaudojamumo analizės rezultatai}{6}
+\contentsline {section}{\numberline {1.}Panaudojamumo analizės rezultatai}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Sprendimo maketai}{9}
+\contentsline {section}{\numberline {2.}Sprendimo maketai}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{10}
+\contentsline {section}{\numberline {3.}Reikalavimai ir projektavimo gairės}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{11}
+\contentsline {subsection}{\numberline {3.1.}Funkciniai reikalavimai paieškos sistemai}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.}Nefunkciniai reikalavimai paieškos sistemai}{11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.}Projektavimo gairės navigacijos ir informacijos architektūrai}{11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.}Papildoma sistemos projektavimo gairė}{12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.}Projektavimas}{13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.}Puslapio architektūra}{13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.}Navigacijos meniu}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Rezultatai ir išvados}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Šaltiniai}{18}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -28,4 +44,16 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{11}
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\MakeUppercase {Priedai}}{18}% 
