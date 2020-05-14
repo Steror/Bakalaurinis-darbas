@@ -56,11 +56,11 @@
 \tableofcontents
 
 \sectionnonum{Įvadas}
-Šiame darbe tyrinėjami sprendimai Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo problemoms spręsti. Darbe buvo apibrėžti reikalavimai sistemai gauti iš naudotojų poreikių ir panaudojamumo analizės ir padaryti architektūriniai sprendimai. Šiame darbe yra remiamasi rezultatais iš autoriaus kursinio ir projektinio darbo ta pačia tema\cite{Kursinis, Projektinis}.
-
-Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Be šių problemų tinklapyje yra ir kitų panaudojamumo problemų rastų per panaudojamumo analizę. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
+Šiame darbe aprašomi Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo trūkumai ir dokumentuojamas prototipo kūrimo procesas. Kūrimo sprendimai remiasi naudotojų poreikių ir svetainės panaudojamumo analize atlikta autoriaus kursiniame darbe bei architektūriniais sprendimais gautais projektiniame darbe.
 
 Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosčio ryšio kainą, 3 vieta Europos Sąjungoje (ES), o naujienas internetu skaito net 93\% gyventojų, daugiau nei bet kurioje kitoje ES valstybėje\cite{InternetasLt}. Iš to matosi, kad lietuviai turi prieinamą internetą ir dažnai jį pasitelkia kaip informacijos šaltinį. Technologiškai pažengusiose valstybėse su gerai išvystyta interneto infrastruktūra gyventojai dažnai ieško informacijos apie sveikatą internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}, tikėtina, kad tai galioja ir Lietuvoje.
+
+Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Per panaudojamumo analizę buvo rasti ir kiti panaudojamumo trūkumai. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Šiuos ir kitus rastus trūkumus ketinama ištaisyti galutinėje sistemoje.
 
 VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų\cite{VulSkApieMusLt}. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
 
@@ -68,12 +68,11 @@ VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba vir
 
 Uždaviniai:
 \begin{enumerate}
-	\item Identifikuoti reikalavimus sistemai
-	\item Suprojektuoti tinklapį
+	\item Suprogramuoti svetainės prototipą
 \end{enumerate}
 
-\sectionnonum{Panaudojamumo analizės rezultatai}
-Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas\cite{Kursinis} pagal David Travis gaires\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn} ir Jakob Nielsen euristikas\cite{NielsenHeuristicsEn}. Prie defektų parašyti skaičiai nurodo kuris maketas (pav.) ir kuri maketo dalis (d.) juos taiso.
+\section{Panaudojamumo analizės rezultatai}
+Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas pagal David Travis gaires\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn} ir Jakob Nielsen euristikas\cite{NielsenHeuristicsEn}. Prie defektų parašyti skaičiai nurodo kuris maketas (pav.) ir kuri maketo dalis (d.) juos taiso.
 
 \begin{center}
 \captionof{table}{Paieškos panaudojamumo gairių vertinimas pradiniam puslapiui}
@@ -159,7 +158,7 @@ Kursiniame darbe buvo įvertintas esamo tinklapio panaudojamumas\cite{Kursinis} 
 \label{EuristikųLentelėPrad}
 \end{center}
 
-\sectionnonum{Sprendimo maketai}
+\section{Sprendimo maketai}
 Kursiniame darbe gauti maketai nurodantys pakeitimus paieškos sistemai ir informacijos architektūrai.
 
 \begin{figure}[H]
@@ -209,26 +208,26 @@ Kursiniame darbe gauti maketai nurodantys pakeitimus paieškos sistemai ir infor
 % parengta, medžiaga. Savarankiški priedai gali būti pateikiami ir
 % kompaktiniame diske. Priedai taip pat numeruojami ir vadinami. Darbo tekstas
 % su priedais susiejamas nuorodomis.
-\sectionnonum{Trys puslapių tipai}
+%\sectionnonumnocontent{Trys puslapių tipai}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.65]{img/Pagrindinis}
-    \caption{Pagrindinis puslapis}
-    \label{img:PagrindinisPuslapis}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.65]{img/Turinys}
-    \caption{Turinio puslapis}
-    \label{img:TurinysPuslapis}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.65]{img/Paieška}
-    \caption{Paieškos puslapis}
-    \label{img:PaieškaPuslapis}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[scale=0.65]{img/Pagrindinis}
+%    \caption{Pagrindinis puslapis}
+%    \label{img:PagrindinisPuslapis}
+%\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[scale=0.65]{img/Turinys}
+%    \caption{Turinio puslapis}
+%    \label{img:TurinysPuslapis}
+%\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[scale=0.65]{img/Paieška}
+%    \caption{Paieškos puslapis}
+%    \label{img:PaieškaPuslapis}
+%\end{figure}
 
 
 %\section{Eksperimentinio palyginimo rezultatai}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6600 64-bit) (preloaded format=xelatex 2018.2.23)  8 MAY 2020 13:40
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6600 64-bit) (preloaded format=xelatex 2018.2.23)  8 MAY 2020 23:45
 entering extended mode
 **./bakalaurinis.tex
 (bakalaurinis.tex
@@ -1325,22 +1325,6 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-192.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-192.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
@@ -1374,42 +1358,18 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 [11
 
-]
-File: img/Pagrindinis.png Graphic file (type bmp)
-<img/Pagrindinis.png>
-
-Overfull \hbox (10.87383pt too wide) in paragraph at lines 216--217
- [][] 
- []
-
-File: img/Turinys.png Graphic file (type bmp)
-<img/Turinys.png>
-
-Overfull \hbox (9.57384pt too wide) in paragraph at lines 222--223
- [][] 
- []
-
-File: img/Paieška.png Graphic file (type bmp)
-<img/Paieška.png>
-
-Overfull \hbox (9.57384pt too wide) in paragraph at lines 228--229
- [][] 
- []
-
-[12
-
-] [13] [14] (bakalaurinis.aux)
+] (bakalaurinis.aux)
 Package logreq Info: Writing requests to 'bakalaurinis.run.xml'.
 \openout1 = `bakalaurinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23870 strings out of 427834
- 464942 string characters out of 3152461
+ 23851 strings out of 427834
+ 464457 string characters out of 3152461
  963474 words of memory out of 3000000
- 27570 multiletter control sequences out of 15000+200000
- 543222 words of font info for 91 fonts, out of 3000000 for 9000
+ 27555 multiletter control sequences out of 15000+200000
+ 543214 words of font info for 90 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,10546b,7408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bakalaurinis.pdf (15 pages).
+Output written on bakalaurinis.pdf (12 pages).

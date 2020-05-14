@@ -4,9 +4,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Įvadas}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Panaudojamumo analizės rezultatai}{6}
+\contentsline {section}{\numberline {1.}Panaudojamumo analizės rezultatai}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sprendimo maketai}{9}
+\contentsline {section}{\numberline {2.}Sprendimo maketai}{9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Rezultatai ir išvados}{10}
 \defcounter {refsection}{0}\relax 
@@ -29,5 +29,3 @@
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\MakeUppercase {Priedai}}{11}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Trys puslapių tipai}{12}

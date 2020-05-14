@@ -88,64 +88,6 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5743920/
       \endverb
     \endentry
-    \entry{Kursinis}{online}{}
-      \name{author}{1}{}{%
-        {{hash=b2b4c5b6a7c3dac15a45c43a8d284d92}{%
-           family={Kiziela},
-           familyi={K\bibinitperiod},
-           given={Tomas},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{fullhash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{bibnamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{authorbibnamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{authornamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{authorfullhash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \field{labelalpha}{Kiz19}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{lietuvių}
-      \field{title}{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų puslapyje}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://github.com/Steror/Kursinis-darbas/blob/master/kursinis.pdf
-      \endverb
-      \verb{url}
-      \verb https://github.com/Steror/Kursinis-darbas/blob/master/kursinis.pdf
-      \endverb
-    \endentry
-    \entry{Projektinis}{online}{}
-      \name{author}{1}{}{%
-        {{hash=b2b4c5b6a7c3dac15a45c43a8d284d92}{%
-           family={Kiziela},
-           familyi={K\bibinitperiod},
-           given={Tomas},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{fullhash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{bibnamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{authorbibnamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{authornamehash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \strng{authorfullhash}{b2b4c5b6a7c3dac15a45c43a8d284d92}
-      \field{labelalpha}{Kiz20}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{lietuvių}
-      \field{title}{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų tinklalapyje}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://github.com/Steror/Projektinis-darbas/blob/master/Atsiskaitymas/Projektinis.pdf
-      \endverb
-      \verb{url}
-      \verb https://github.com/Steror/Projektinis-darbas/blob/master/Atsiskaitymas/Projektinis.pdf
-      \endverb
-    \endentry
     \entry{InternetUseByPublicSAEn}{article}{}
       \name{author}{2}{}{%
         {{hash=2e53dcfbbb1a5aba4608942ddf292c6d}{%
