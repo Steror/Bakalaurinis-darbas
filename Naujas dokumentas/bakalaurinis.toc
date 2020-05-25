@@ -2,31 +2,55 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Įvadas}{5}% 
+\contentsline {section}{Įvadas}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Panaudojamumo analizės rezultatai}{6}% 
+\contentsline {section}{\numberline {1.}Vartotojų poreikių analizė}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Sprendimo maketai}{9}% 
+\contentsline {section}{\numberline {2.}Sistemų lyginimo kriterijai}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Reikalavimai ir projektavimo gairės}{10}% 
+\contentsline {section}{\numberline {3.}Panaudojamumo analizės rezultatai}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Funkciniai reikalavimai paieškos sistemai}{10}% 
+\contentsline {section}{\numberline {4.}Sprendimo maketai}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Nefunkciniai reikalavimai paieškos sistemai}{11}% 
+\contentsline {section}{\numberline {5.}Reikalavimai ir projektavimo gairės}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Projektavimo gairės navigacijos ir informacijos architektūrai}{11}% 
+\contentsline {subsection}{\numberline {5.1.}Funkciniai reikalavimai paieškos sistemai}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.}Papildoma sistemos projektavimo gairė}{12}% 
+\contentsline {subsection}{\numberline {5.2.}Nefunkciniai reikalavimai paieškos sistemai}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Projektavimas}{13}% 
+\contentsline {subsection}{\numberline {5.3.}Projektavimo gairės navigacijos ir informacijos architektūrai}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Puslapio architektūra}{13}% 
+\contentsline {subsection}{\numberline {5.4.}Papildoma sistemos projektavimo gairė}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Navigacijos meniu}{14}% 
+\contentsline {section}{\numberline {6.}Informacijos architektūros projektavimas}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{17}% 
+\contentsline {subsection}{\numberline {6.1.}Informacijos architektūra}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{18}% 
+\contentsline {subsection}{\numberline {6.2.}Turinio išdėstymas}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.}Navigacijos meniu}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.}Svetainės prototipo kūrimo procesas}{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Rezultatai ir išvados}{23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Šaltiniai}{24}% 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -52,8 +76,4 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{18}% 
+\contentsline {section}{\MakeUppercase {Priedai}}{25}% 

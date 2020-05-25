@@ -1995,18 +1995,30 @@
     <bcf:datasource type="file" datatype="bibtex">bibliografija.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">VulSkApieMusLt</bcf:citekey>
-    <bcf:citekey order="2">InternetasLt</bcf:citekey>
-    <bcf:citekey order="3">InternetUseByPublicSAEn</bcf:citekey>
-    <bcf:citekey order="4">InternetUseByPublicHKEn</bcf:citekey>
-    <bcf:citekey order="5">SearchGuidelinesEn</bcf:citekey>
-    <bcf:citekey order="6">NavigationAndIAGuidelinesEn</bcf:citekey>
-    <bcf:citekey order="7">NielsenHeuristicsEn</bcf:citekey>
-    <bcf:citekey order="8">TopVsLeftNav</bcf:citekey>
-    <bcf:citekey order="9">TopVsLeftNav</bcf:citekey>
-    <bcf:citekey order="10">TopVsLeftNav</bcf:citekey>
-    <bcf:citekey order="11">TopVsLeftNav2</bcf:citekey>
-    <bcf:citekey order="12">LeftNav</bcf:citekey>
+    <bcf:citekey order="1">EuCitizDigHealthEn</bcf:citekey>
+    <bcf:citekey order="2">EmergingmHealthEn</bcf:citekey>
+    <bcf:citekey order="3">InternetasLt</bcf:citekey>
+    <bcf:citekey order="4">InternetUseByPublicSAEn</bcf:citekey>
+    <bcf:citekey order="5">InternetUseByPublicHKEn</bcf:citekey>
+    <bcf:citekey order="6">VulSkApieMusLt</bcf:citekey>
+    <bcf:citekey order="7">EuCitizDigHealthEn</bcf:citekey>
+    <bcf:citekey order="8">EmergingmHealthEn</bcf:citekey>
+    <bcf:citekey order="9">AlexaSantaEn</bcf:citekey>
+    <bcf:citekey order="10">VulSkKaipMusRastiLt</bcf:citekey>
+    <bcf:citekey order="11">VulSkApieMusLt</bcf:citekey>
+    <bcf:citekey order="12">NielsenUsabilityEn</bcf:citekey>
+    <bcf:citekey order="13">SearchGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="14">NavigationAndIAGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="15">NielsenHeuristicsEn</bcf:citekey>
+    <bcf:citekey order="16">SearchGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="17">NavigationAndIAGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="18">NielsenHeuristicsEn</bcf:citekey>
+    <bcf:citekey order="19">IADefinition</bcf:citekey>
+    <bcf:citekey order="20">TopVsLeftNav</bcf:citekey>
+    <bcf:citekey order="21">TopVsLeftNav</bcf:citekey>
+    <bcf:citekey order="22">TopVsLeftNav</bcf:citekey>
+    <bcf:citekey order="23">TopVsLeftNav2</bcf:citekey>
+    <bcf:citekey order="24">LeftNav</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
