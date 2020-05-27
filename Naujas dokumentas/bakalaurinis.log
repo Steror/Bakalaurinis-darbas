@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  24 MAY 2020 18:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  25 MAY 2020 15:33
 entering extended mode
 **./bakalaurinis.tex
 (bakalaurinis.tex
@@ -1356,18 +1356,26 @@ Overfull \hbox (9.57384pt too wide) in paragraph at lines 411--412
 
 [26
 
-] [27] [28] (bakalaurinis.aux)
+] [27] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+[]\TU/texgyretermes(0)/m/n/10 Parsisiūsti ir įrašyti Node Package Manager (toli
+au NPM) pagal savo kompiuterio platformą
+ []
+
+[29
+
+] (bakalaurinis.aux)
 Package logreq Info: Writing requests to 'bakalaurinis.run.xml'.
 \openout1 = `bakalaurinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25511 strings out of 427748
- 502069 string characters out of 3146822
+ 25513 strings out of 427748
+ 502167 string characters out of 3146822
  1004571 words of memory out of 3000000
- 29281 multiletter control sequences out of 15000+200000
- 545296 words of font info for 94 fonts, out of 3000000 for 9000
+ 29282 multiletter control sequences out of 15000+200000
+ 545304 words of font info for 95 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,2012b,7664s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bakalaurinis.pdf (28 pages).
+Output written on bakalaurinis.pdf (29 pages).
