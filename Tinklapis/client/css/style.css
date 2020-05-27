@@ -8271,11 +8271,12 @@ a[data-toggle="collapse"] {
 
 #content {
   width: 100%;
-  padding: 0;
+  padding-top: 0 !important;
   min-height: 100vh;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 
 .btn.btn-primary {
   background: #800000;
@@ -8291,6 +8292,7 @@ a[data-toggle="collapse"] {
 }
 
 #sidebar {
+  padding-top: 100px;
   background-color: #800000;
 }
 
@@ -8315,3 +8317,50 @@ a[data-toggle="collapse"] {
 article {
   min-height: calc(100vh - 211px - 58px);
 }
+
+header {
+  background-color: lightgray;
+}
+
+#header {
+  padding: 20px 20px 10px 20px;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+}
+
+#title {
+  padding-left: 10px;
+}
+
+#language img {
+  padding: 5px;
+}
+
+/*#searchList {*/
+/*  z-index: 1000;*/
+/*}*/
+
+/*#searchList ul{*/
+/*  !* Remove default list styling *!*/
+/*  list-style-type: none;*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*}*/
+
+/*#searchList ul li a {*/
+/*  border: 1px solid #ddd; !* Add a border to all links *!*/
+/*  margin-top: -1px; !* Prevent double borders *!*/
+/*  background-color: #f6f6f6; !* Grey background color *!*/
+/*  padding: 12px; !* Add some padding *!*/
+/*  text-decoration: none; !* Remove default text underline *!*/
+/*  font-size: 18px; !* Increase the font-size *!*/
+/*  color: black; !* Add a black text color *!*/
+/*  display: block; !* Make it into a block element to fill the whole list *!*/
+/*}*/
+
+/*#searchList ul li a:hover:not(.header) {*/
+/*  background-color: #eee; !* Add a hover effect to all links, except for headers *!*/
+/*}*/

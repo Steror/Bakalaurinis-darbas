@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1cUvDtUVPVHKpz2Htlj9OZhUGcV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590595869176</updated>
       <workItem from="1590595870444" duration="1077000" />
-      <workItem from="1590596992588" duration="9143000" />
+      <workItem from="1590596992588" duration="17151000" />
     </task>
     <servers />
   </component>

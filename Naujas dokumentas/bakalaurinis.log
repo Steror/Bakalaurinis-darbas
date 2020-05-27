@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  25 MAY 2020 15:33
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  28 MAY 2020 00:05
 entering extended mode
 **./bakalaurinis.tex
 (bakalaurinis.tex
@@ -1356,13 +1356,7 @@ Overfull \hbox (9.57384pt too wide) in paragraph at lines 411--412
 
 [26
 
-] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
-[]\TU/texgyretermes(0)/m/n/10 Parsisiūsti ir įrašyti Node Package Manager (toli
-au NPM) pagal savo kompiuterio platformą
- []
-
-[29
+] [27] [28] [29
 
 ] (bakalaurinis.aux)
 Package logreq Info: Writing requests to 'bakalaurinis.run.xml'.
