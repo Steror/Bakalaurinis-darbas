@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Įvadas}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Vartotojų poreikių analizė}{8}% 
+\contentsline {section}{\numberline {1.}Naudotojų poreikių analizė}{8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Sistemų lyginimo kriterijai}{9}% 
 \defcounter {refsection}{0}\relax 
@@ -32,13 +32,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.}Svetainės prototipo kūrimo procesas}{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{23}% 
+\contentsline {section}{Rezultatai}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{24}% 
+\contentsline {section}{Išvados}{25}% 
 \defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{Šaltiniai}{26}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -76,4 +74,8 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{25}% 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\MakeUppercase {Priedai}}{27}% 

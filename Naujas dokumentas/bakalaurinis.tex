@@ -48,41 +48,56 @@
 \end{center}
 
 \sectionnonumnocontent{Santrauka}
+Vilniaus Universiteto Ligoninės Santaros klinikų puslapis turi panaudojamumo problemų dėl kurių naudotojams gali būti sunku rasti naudingą informaciją. Atlikta naudotojų poreikių analizė parodė, kad naudotojams ypač svarbi registracija pas gydytoją ir informacija apie klinikų pasiekiamumą. Darbe nagrinėjamos David Travis IA ir paieškos panaudojamumo gairės ir Jakob Nielsen euristikos. Naudojant šias gaires ir euristikas atlikta svetainės panaudojamumo analizė parodė kokie trūkumai yra sistemoje. Šių trūkumų galimus sprendimus iliustruoja nubrėžti maketai. Remdamasis gairėmis ir euristikomis autorius išskyrė reikalavimus sistemai, pagal kuriuos perbraižytas svetainės turinio išdėstymas ir navigacijos meniu. Remiantis šiais rezultatais sukurtas svetainės puslapio prototipas.
+
+Nors autoriaus prototipas nėra detalus, jį galima naudoti kaip pavyzdį svetainės atnaujinimui. Taip pat sprendimų galima ieškoti nagrinėjant rastus gairių ir euristikų pažeidimus.
+
 %Glaustai aprašomas darbo turinys: pristatoma nagrinėta problema ir padarytos
 %išvados. Santraukos apimtis ne didesnė nei 0,5 puslapio. Santraukų gale
 %nurodomi darbo raktiniai žodžiai. 
 % Nurodomi iki 5 svarbiausių temos raktinių žodžių (terminų).
 % Vienas terminas gali susidėti iš kelių žodžių.
-%\raktiniaizodziai{raktinis žodis 1, raktinis žodis 2, raktinis žodis 3, raktinis žodis 4, raktinis žodis 5}   
+\raktiniaizodziai{interneto svetainė, informacijos architektūra (IA), panaudojamumo gairės ir euristikos}   
 
 \sectionnonumnocontent{Summary}
+The website of Vilnius University Hospital Santaros klinikos has usability problems which can make it difficult for users to find relevant information. An analysis of users's needs shows that users especially care about registering for a doctor's appointment and finding the hospital contact information. During this project the author explores David Travis' usability guidelines and Jakob Nielsen's usability heuristics. Using these guidelines and heuristics the author identified usability issues in the website. Possible solutions for these issues are illustrated by models. Using guidelines and heuristics the author specifies requirements for the system. Using these requirements the author designs a new content layout and navigation menu. Based on these results, the author creates a prototype of a page on the website.
+
+Although the author's prototype is not detailed, it can be used as an example for upgrading the website. Solutions to usability issues can also be found by examining the issues identified by using usability guidelines and heuristics.
+
 %Santrauka anglų kalba. Santraukos apimtis ne didesnė nei 0,5 puslapio.
-%\keywords{keyword 1, keyword 2, keyword 3, keyword 4, keyword 5}
+\keywords{website, information architecture (IA), usability guidelines and heuristics}
 
 \tableofcontents
 
 \sectionnonum{Įvadas}
-Šiame darbe aprašomi Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų tinklapio santa.lt panaudojamumo trūkumai, architektūriniai sprendimai trūkumams pataisyti ir dokumentuojamas prototipo kūrimo procesas. Kūrimo sprendimai remiasi reikalavimais sistemai ir architektūriniais sprendimais gautais projektiniame darbe, o šie paremti naudotojų poreikių ir svetainės panaudojamumo analize atlikta kursiniame darbe.
+Šiame darbe aprašomi Vilniaus Universiteto Ligoninės (VUL) Santaros klinikų svetainės santa.lt panaudojamumo trūkumai, architektūriniai sprendimai trūkumams pataisyti ir dokumentuojamas prototipo kūrimo procesas. Kūrimo sprendimai remiasi reikalavimais sistemai ir architektūriniais sprendimais gautais projektiniame darbe, o šie paremti naudotojų poreikių ir svetainės panaudojamumo analize atlikta kursiniame darbe.
 
 Tyrimai rodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn} ir pasaulyje vis didesnė dalis žmonių ieško informacijos apie sveikatą naudodamiesi mobiliaisiais įrenginiais \cite{EmergingmHealthEn}. Lietuva pagal 2018 metų DESI indeksą įvertinta 94 balais pagal plačiajuosčio ryšio kainą, 3 vieta Europos Sąjungoje (ES), o naujienas internetu skaito net 93\% gyventojų, daugiau nei bet kurioje kitoje ES valstybėje\cite{InternetasLt}. Iš to matosi, kad lietuviai turi prieinamą internetą ir dažnai jį pasitelkia kaip informacijos šaltinį. Technologiškai pažengusiose valstybėse su gerai išvystyta interneto infrastruktūra gyventojai dažnai ieško informacijos apie sveikatą internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}, tikėtina, kad tai galioja ir Lietuvoje.
 
-Vilniaus universiteto ligoninė (toliau VUL) Santaros klinikos yra viena didžiausių Lietuvos ligoninių, joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų \cite{VulSkApieMusLt}. VUL Santaros klinikos turi internetinę svetainę santa.lt, kurioje pateikiama informacija aktuali ligoninės pacientams ir kitiems ligoninės veikla suinteresuotiems asmenims. Nors nėra tikslių svetainės lankomumo statistikų kaip apsilankymai per metus, jeigu bent 1\% VUL pacientų ieško informacijos ligoninės internetinėje svetainėje, tai jau 10 tūkstančių lankytojų per metus. Tačiau dabartinėje svetainėje yra problemų, kurios gali trukdyti lankytojams rasti informaciją, pavyzdžiui, navigacija reikalauja daug paspaudimų ir neaiškiai apibūdina puslapių turinį, išėjus iš pagrindinio puslapio sunku rasti registraciją pas gydytoją, o paieškos sistema neintuityvi, užklausos dažnai negražina ieškomų rezultatų. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti tinklapį atitinkantį naudotojų lūkesčius.
+Vilniaus universiteto ligoninė (toliau VUL) Santaros klinikos yra viena didžiausių Lietuvos ligoninių, joje dirba virš 5000 darbuotojų ir kasmet gydoma apie milijonas pacientų \cite{VulSkApieMusLt}. VUL Santaros klinikos turi internetinę svetainę santa.lt, kurioje pateikiama informacija aktuali ligoninės pacientams ir kitiems ligoninės veikla suinteresuotiems asmenims. Nors nėra tikslių svetainės lankomumo statistikų kaip apsilankymai per metus, jeigu bent 1\% VUL pacientų ieško informacijos ligoninės internetinėje svetainėje, tai jau 10 tūkstančių lankytojų per metus. Tačiau dabartinėje svetainėje yra problemų, kurios gali trukdyti lankytojams rasti informaciją, pavyzdžiui, navigacija reikalauja daug paspaudimų ir neaiškiai apibūdina puslapių turinį, išėjus iš pagrindinio puslapio sunku rasti registraciją pas gydytoją, o paieškos sistema neintuityvi, užklausos dažnai negražina ieškomų rezultatų. Atrodo natūralu daryti prielaidą, kad nemažai pacientų ir lankytojų apie ligoninę domisi internetu ir ligoninei yra svarbu turėti svetainę atitinkančią naudotojų lūkesčius.
 
-\pagebreak
-Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Per panaudojamumo analizę buvo rasti ir kiti panaudojamumo trūkumai. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Atliekant projektinį darbą iš svetainės panaudojamumo gairių buvo iškelti reikalavimai sistemai ir sukurti informacijos architektūros maketai leidžiantys pataisyti trūkumus rastus kursiniame darbe.
+Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Per panaudojamumo analizę buvo rasti ir kiti panaudojamumo trūkumai. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Atliekant projektinį darbą iš svetainės panaudojamumo gairių buvo iškelti reikalavimai sistemai, o pagal šiuos sukurti informacijos architektūros maketai ir perstruktūrizuotas navigacijos meniu, tai leidžia pataisyti svetainės trūkumus rastus kursiniame darbe.
 
-Šiam darbui sukurtas svetainės naudotojo sąsajos prototipas pagal projektiniame darbe iškeltus reikalavimus ir maketus, dokumente aprašomas programavimo procesas. Programavimui naudota Angular technologija, nes ši autoriui jau žinoma.
+Šiam darbui sukurtas svetainės naudotojo sąsajos prototipas pagal projektiniame darbe iškeltus reikalavimus ir maketus, dokumente aprašomas programavimo procesas. Programavimui pasirinkta naudoti HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), JS (JavaScript), JQuery ir Bootstrap technologijas, nes šios autoriui jau žinomos.
 
 Šio \textbf{darbo tikslas} yra sukurti svetainės prototipą siekiant palengvinti lankytojų informacijos paiešką ir pagerinti naudojimosi našumą. Tai atlikta remiantis architektūros maketais ir reikalavimais iškeltais projektiniame darbe. Darbo gale nagrinėjami sukurto prototipo ir dabartinės sistemos privalumai ir trūkumai ir padaromos išvados, kaip dar galima pagerinti sistemą.
 
 Uždaviniai:
 \begin{enumerate}
-	\item Suprogramuoti svetainės prototipą ir aprašyti procesą
-	\item Palyginti prototipą ir oficialią svetainę
+	\item Išanalizuoti naudotojų poreikius
+	\item Išskirti sistemų lyginimo kriterijus
+	\item Atlikti panaudojamumo analizę
+	\item Sukurti sprendimo maketus
+	\item Išskirti funkcinius ir nefunkcinius reikalavimus paieškai
+	\item Išskirti IA projektavimo gaires
+	\item Nubraižyti puslapio turinio išdėstymo maketus
+	\item Perstruktūrizuoti navigacijos meniu
+	\item Pasirinkti technologijas svetainės kūrimui
+	\item Suprogramuoti svetainės prototipą ir aprašyti kūrimo procesą
 \end{enumerate}
 
-\section{Vartotojų poreikių analizė}
-Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Naudotojų, kurie aktyviai domisi sveikata per mobilius įrenginius sparčiai didėja kiekvienais metais \cite{EmergingmHealthEn}. Tyrimų atliktų Lietuvoje autorius nerado, tačiau mano, kad lietuviai taip pat seka šias tendencijas. Siekiant apimti kuo didesnį naudotojų kiekį pasirinkta nagrinėti Lietuvos didžiausios ligoninės VUL Santaros klinikų tinklapį santa.lt. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir keliauja į (10,4\%) sergu.lt (neįskaitant 19,1\% ateinančių iš google.com ir 21,8\% keliaujančių į google.com)\cite{AlexaSantaEn}. Taigi galima matyti, kad šių puslapių vartotojai iš dalies sutampa ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vienas iš vartotojų poreikių yra rasti nuorodą į registraciją pas gydytoją. Santa.lt „Kaip mus rasti“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų poreikį - sužinoti apie ligoninės klinikų pasiekiamumą.
+\section{Naudotojų poreikių analizė}
+Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Naudotojų, kurie aktyviai domisi sveikata per mobilius įrenginius sparčiai didėja kiekvienais metais \cite{EmergingmHealthEn}. Tyrimų atliktų Lietuvoje autorius nerado, tačiau mano, kad lietuviai taip pat seka šias tendencijas. Siekiant apimti kuo didesnį naudotojų kiekį pasirinkta nagrinėti Lietuvos didžiausios ligoninės VUL Santaros klinikų tinklapį santa.lt. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir keliauja į (10,4\%) sergu.lt (neįskaitant 19,1\% ateinančių iš google.com ir 21,8\% keliaujančių į google.com)\cite{AlexaSantaEn}. Taigi galima matyti, kad šių puslapių vartotojai iš dalies sutampa ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vienas iš naudotojų poreikių yra rasti nuorodą į registraciją pas gydytoją. Santa.lt „Kaip mus rasti“ skyrelį naudotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą naudotojų poreikį - sužinoti apie ligoninės klinikų pasiekiamumą.
 
 %Norint daugiau sužinoti apie vartotojų poreikius autorius atliko apklausą kartu su panaudojamumo testavimu (n = 5). Dalyvių buvo prašoma atlikti tipinio naudojimo užduotis, o po užduočių buvo užduodami klausimai apie sistemos naudojimą. Iš atsakymų matyti:
 %\begin{enumerate}
@@ -349,7 +364,7 @@ Atlikti pakeitimai navigacijos meniu:
 	\item Panaikintas skyrius nurodantis į paiešką
 	\item Panaikintas skyriaus „Patalpų nuoma“ duplikatas
 	\item Skyriaus „Pacientams“ vaikiniai skyriai apkeisti vietomis su skyriaus „Aktuali informacija“ vaikiniais skyriais (paryškinti spalvomis)
-	\item Panaikintas „Apie mus“ skyriaus identiško pavadinimo vaikinis skyrius, kad suvienodinti veikseną tarp skyrių
+	\item Panaikintas „Apie mus“ skyriaus identiško pavadinimo vaikinis skyrius, kad būtų suvienodinta veiksena tarp skyrių
 \end{enumerate}
 
 \begin{figure}[htb]
@@ -360,12 +375,42 @@ Atlikti pakeitimai navigacijos meniu:
 \end{figure}
 
 \section{Svetainės prototipo kūrimo procesas}
+Pirmas žingsnis prieš programuojant yra pasirinkti įrankius su kuriais bus kuriamas puslapis. Sistemos reikalavimai neįtraukia apribojimų įrankiams, o esančius reikalavimus galima išpildyti naudojant įvairias technologijas. Pasirinkimai padaryti atsižvelgus į autoriaus patirtį ir internetinių išteklių kiekį. Puslapio logikai naudojami JavaScript ir JQuery dėl savo paprastumo ir atlaidumo klaidoms. Puslapio dizainui naudojamas CSS ir Bootstrap, kuris paverčia trumpas komandas į eilę CSS komandų taip sumažindamas kiek puslapiui reikia parašyti CSS kodo. Puslapio turinys sudarytas naudojant HTML. Šios svetainių kūrimo kalbos turi labai daug internetinių pavyzdžių ir mokomųjų resursų, taigi galima lengviau išspręsti iškilusius sunkumus.
+
+Prototipo kūrimas pradėtas su panašių puslapių paieška siekiant rasti tinkamą stilistiką. Iš puslapių pavyzdžių paimtas puslapio šablonas su kaire vertikalia navigacija, kuris panaudotas kaip skeletas tolesniam plėtimui. Prototipas plėtojamas pagal informacijos architektūros maketus ir reikalavimus. Sukurta puslapio antraštė, poraštė, nuorodų ir paieškos juosta ir pagalbiniai įrankiai (kalbos nustatymai, D.U.K. ir matomumo pagerinimas). Atsižvelgta ir į „Responsive design“ principus, puslapis susitalpina į mažesnį ekraną, meniu galima paslėpti ir išskleisti, tačiau kai kurie elementai neelegantiškai sutalpinami į mažą ekraną. Spalvų paletė buvo pasirinkta remiantis originalaus puslapio išvaizda: raudona ir pilka tema. Proceso pabaigoje gautas turinio puslapio prototipas (\ref{img:Prototipas} paveikslas).
+
+Kuriant prototipą buvo pastebėti keli trūkumai apibrėžtoje architektūroje. Iš navigacijos pusės, kadangi skyrių kategorija atidaroma su paspaudimu ir atrodo nelogiška atidaryti puslapį, kai naudotojas nori tik pasiekti kategorijos viduje esantį skyrių, taigi reikia skyrius, kuriuos aprašyta atidaryti paspaudus ant kategorijos, perkelti į kategorijos vidų. Iš dizaino pusės, pagal turinio išdėstymą antraštė ir poraštė yra linijos puslapio viršuje ir apačioje, tačiau turint vertikalų navigacijos meniu pasirodė vizualiai patraukliau pratęsti meniu iki puslapio viršaus ir apačios taip, kad jis užimtų visą kairę puslapio pusę.
+
+Pabaigtas turinio puslapio prototipas pavaizduoja pataisytą navigacijos meniu, lengvai pasiekiamą nuorodą į registraciją, kaip galėtų atrodyti atnaujintas dizainas ir kaip puslapis galėtų prisitaikyti prie mažų ekranų. Idealiu atveju būtų padaryti ir paieškos ir pagrindinio puslapio prototipai su daugiau funkcionalumo, bet ir iš sukurto prototipo galima matyti dalį trūkumų sprendimų.
 
 
-\sectionnonum{Rezultatai ir išvados}
-%Šiame darbe išskirti funkciniai ir nefunkciniai reikalavimai paieškai, navigacijos ir informacijos architektūros projektavimo gairės, parinkti tinklapio architektūros maketai, suprojektuotas navigacijos meniu ir aprašytas bendras sistemos serverio architektūros modelis.
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.50]{img/Prototipas}
+    \caption{Sukurtas turinio puslapio prototipas}
+    \label{img:Prototipas}
+\end{figure}
 
-%Formuluojant reikalavimus iš gairių autorius pastebėjo, kad nevisiems defektams prasminga rašyti reikalavimus, kadangi nevisi defektai yra aktualūs gerinamai sistemai, o kai kurie turi bendrą iškilimo priežastį. Atliekant vertikalios ir horizontalios navigacijos palyginimą išsiaiškinta, kad vertikali geriau tinka, kai meniu labai platus ir yra naudojamas kaip orientacinis elementas, ne tik informacijos paieškos elementas. Taip pat paaiškėjo, kad horizontalų meniu gerai naudoti, kai kažkurie skyriai daug dažniau naudojami, ir jį naudojant galima užimti mažiau vietos navigacijai. Projektuojant navigacijos meniu autorius pastebėjo, kad net sutalpinus daug skyrių į meniu, informacija gali būti lengvai surandama, jeigu viskas tvarkingai surūšiuota.
+\sectionnonum{Rezultatai}
+Šiame darbe:
+\begin{enumerate}
+	\item Išanalizuoti naudotojų poreikiai
+	\item Išskirti sistemų lyginimo kriterijai
+	\item Atlikta panaudojamumo analizė
+	\item Sukurti sprendimo maketai
+	\item Išskirti funkciniai ir nefunkciniai reikalavimai paieškai
+	\item Išskirtos IA projektavimo gairės
+	\item Nubraižyti puslapio turinio išdėstymo maketai
+	\item Perstruktūrizuotas navigacijos meniu
+	\item Parinkti prototipo kūrimo įrankiai
+	\item Sukurtas turinio puslapio prototipas
+\end{enumerate}
+
+\sectionnonum{Išvados}
+Atlikus naudotojų poreikių analizę rasta, kad naudotojams ypač svarbu registracija pas gydytoją ir informacija apie klinikų pasiekiamumą. Puslapių IA, paieškai ir bendram panaudojamumui tinka David Travis IA ir paieškos panaudojamumo gairės ir Jakob Nielsen panaudojamumo euristikos. Santa.lt puslapyje rasti gairių ir euristikų pažeidimai. Formuluojant reikalavimus iš gairių autorius pastebėjo, kad nevisiems defektams prasminga rašyti reikalavimus, kadangi nevisi defektai yra aktualūs gerinamai sistemai, o kai kurie turi bendrą iškilimo priežastį. Atliekant vertikalios ir horizontalios navigacijos palyginimą išsiaiškinta, kad vertikali geriau tinka, kai meniu labai platus ir yra naudojamas kaip orientacinis elementas, ne tik informacijos paieškos elementas. Taip pat paaiškėjo, kad horizontalų meniu gerai naudoti, kai kažkurie skyriai daug dažniau naudojami, ir jį naudojant galima užimti mažiau vietos navigacijai. Projektuojant navigacijos meniu autorius pastebėjo, kad net sutalpinus daug skyrių į meniu, informacija gali būti lengvai surandama, jeigu viskas tvarkingai surūšiuota. Iš sukurto prototipo galima pamatyti vieną iš variantų kaip atnaujinti santa.lt svetainę ir ištaisyti dalį rastų trūkumų.
+
+Autoriui nepavyko sukurti paieškos ir pagrindinio puslapio prototipų arba pridėti daugiau funkcionalumo turinio prototipui, taigi čia dar galima darbą tobulinti, taip pat palyginti galutinį rezultatą su pradiniu pagal lyginimo kriterijus arba atlikus naudotojų apklausą. Tinkamai sukurtą svetainę arba gerus trūkumų sprendimo būdus būtų galima panaudoti Santaros klinikų svetainės santa.lt atnaujinimui, tai palengvintų pacientų informacijos paiešką bei gali padėti naudotojams rūpintis savo ir kitų sveikata.
+
 
 %Rezultatų ir išvadų dalyje turi būti aiškiai išdėstomi pagrindiniai darbo
 %rezultatai (kažkas išanalizuota, kažkas sukurta, kažkas įdiegta) ir pateikiamos
