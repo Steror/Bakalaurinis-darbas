@@ -78,9 +78,9 @@ Vilniaus universiteto ligoninė (toliau VUL) Santaros klinikos yra viena didžia
 
 Autoriaus kursiniame darbe rasta, kad santa.lt tinklapio naudotojams yra aktualu rasti registraciją pas gydytoją ir ligoninės kontaktus, tačiau tinklapyje tai padaryti užtrunka ilgiau nei turėtų. Per panaudojamumo analizę buvo rasti ir kiti panaudojamumo trūkumai. Tinklapio paieškos rezultatai neatitinka naudotojo įvestos užklausos, yra prastai surūšiuoti, filtravimas nėra efektyvus ir nėra patarimų kaip reikėtų teisingai naudoti paieškos sistemą. Navigacijos sistema turi per daug lygių ir yra nepakankamai plati, kategorijų pavadinimai neatitinka informacijos viduje ir puslapio elementai neteikia pakankamo atsako naudotojo veiksmams. Atliekant projektinį darbą iš svetainės panaudojamumo gairių buvo iškelti reikalavimai sistemai, o pagal šiuos sukurti informacijos architektūros maketai ir perstruktūrizuotas navigacijos meniu, tai leidžia pataisyti svetainės trūkumus rastus kursiniame darbe.
 
-Šiam darbui sukurtas svetainės naudotojo sąsajos prototipas pagal projektiniame darbe iškeltus reikalavimus ir maketus, dokumente aprašomas programavimo procesas. Programavimui pasirinkta naudoti HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), JS (JavaScript), JQuery ir Bootstrap technologijas, nes šios autoriui jau žinomos.
+Šiam darbui sukurtas svetainės naudotojo sąsajos prototipas pagal projektiniame darbe iškeltus reikalavimus ir maketus, dokumente aprašomas programavimo procesas. Programavimui pasirinkta naudoti HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), JS (JavaScript), JQuery ir Bootstrap technologijas, nes šios autoriui jau žinomos ir yra pakankamai lengva rasti pagalbinių šaltinių.
 
-Šio \textbf{darbo tikslas} yra sukurti svetainės prototipą siekiant palengvinti lankytojų informacijos paiešką ir pagerinti naudojimosi našumą. Tai atlikta remiantis architektūros maketais ir reikalavimais iškeltais projektiniame darbe. Darbo gale nagrinėjami sukurto prototipo ir dabartinės sistemos privalumai ir trūkumai ir padaromos išvados, kaip dar galima pagerinti sistemą.
+Šio \textbf{darbo tikslas} yra sukurti svetainės prototipą siekiant palengvinti lankytojų informacijos paiešką ir pagerinti naudojimosi našumą. Tai atlikta remiantis architektūros maketais ir reikalavimais iškeltais projektiniame darbe. Darbo gale nagrinėjami sukurto prototipo privalumai ir trūkumai ir padaromos išvados, kaip dar galima pagerinti sistemą.
 
 Uždaviniai:
 \begin{enumerate}
@@ -374,12 +374,13 @@ Atlikti pakeitimai navigacijos meniu:
     \label{img:NavigacijosMeniuPakeistas}
 \end{figure}
 
-\section{Svetainės prototipo kūrimo procesas}
+\section{Svetainės prototipas}
+\subsection{Kūrimo procesas}
 Pirmas žingsnis prieš programuojant yra pasirinkti įrankius su kuriais bus kuriamas puslapis. Sistemos reikalavimai neįtraukia apribojimų įrankiams, o esančius reikalavimus galima išpildyti naudojant įvairias technologijas. Pasirinkimai padaryti atsižvelgus į autoriaus patirtį ir internetinių išteklių kiekį. Puslapio logikai naudojami JavaScript ir JQuery dėl savo paprastumo ir atlaidumo klaidoms. Puslapio dizainui naudojamas CSS ir Bootstrap, kuris paverčia trumpas komandas į eilę CSS komandų taip sumažindamas kiek puslapiui reikia parašyti CSS kodo. Puslapio turinys sudarytas naudojant HTML. Šios svetainių kūrimo kalbos turi labai daug internetinių pavyzdžių ir mokomųjų resursų, taigi galima lengviau išspręsti iškilusius sunkumus.
 
 Prototipo kūrimas pradėtas su panašių puslapių paieška siekiant rasti tinkamą stilistiką. Iš puslapių pavyzdžių paimtas puslapio šablonas su kaire vertikalia navigacija, kuris panaudotas kaip skeletas tolesniam plėtimui. Prototipas plėtojamas pagal informacijos architektūros maketus ir reikalavimus. Sukurta puslapio antraštė, poraštė, nuorodų ir paieškos juosta ir pagalbiniai įrankiai (kalbos nustatymai, D.U.K. ir matomumo pagerinimas). Atsižvelgta ir į „Responsive design“ principus, puslapis susitalpina į mažesnį ekraną, meniu galima paslėpti ir išskleisti, tačiau kai kurie elementai neelegantiškai sutalpinami į mažą ekraną. Spalvų paletė buvo pasirinkta remiantis originalaus puslapio išvaizda: raudona ir pilka tema. Proceso pabaigoje gautas turinio puslapio prototipas (\ref{img:Prototipas} paveikslas).
 
-Kuriant prototipą buvo pastebėti keli trūkumai apibrėžtoje architektūroje. Iš navigacijos pusės, kadangi skyrių kategorija atidaroma su paspaudimu ir atrodo nelogiška atidaryti puslapį, kai naudotojas nori tik pasiekti kategorijos viduje esantį skyrių, taigi reikia skyrius, kuriuos aprašyta atidaryti paspaudus ant kategorijos, perkelti į kategorijos vidų. Iš dizaino pusės, pagal turinio išdėstymą antraštė ir poraštė yra linijos puslapio viršuje ir apačioje, tačiau turint vertikalų navigacijos meniu pasirodė vizualiai patraukliau pratęsti meniu iki puslapio viršaus ir apačios taip, kad jis užimtų visą kairę puslapio pusę.
+Kuriant prototipą buvo pastebėti keli trūkumai apibrėžtoje architektūroje. Iš navigacijos pusės, kadangi skyrių kategorija atidaroma su paspaudimu ir atrodo nelogiška atidaryti puslapį, kai naudotojas tik nori pasiekti kategorijos viduje esantį skyrių, taigi reikia skyrius, kuriuos aprašyta atidaryti paspaudus ant kategorijos, perkelti į kategorijos vidų. Iš dizaino pusės, pagal turinio išdėstymą antraštė ir poraštė yra linijos puslapio viršuje ir apačioje, tačiau turint vertikalų navigacijos meniu pasirodė vizualiai patraukliau pratęsti meniu iki puslapio viršaus ir apačios taip, kad jis užimtų visą kairę puslapio pusę.
 
 Pabaigtas turinio puslapio prototipas pavaizduoja pataisytą navigacijos meniu, lengvai pasiekiamą nuorodą į registraciją, kaip galėtų atrodyti atnaujintas dizainas ir kaip puslapis galėtų prisitaikyti prie mažų ekranų. Idealiu atveju būtų padaryti ir paieškos ir pagrindinio puslapio prototipai su daugiau funkcionalumo, bet ir iš sukurto prototipo galima matyti dalį trūkumų sprendimų.
 
@@ -390,6 +391,27 @@ Pabaigtas turinio puslapio prototipas pavaizduoja pataisytą navigacijos meniu, 
     \caption{Sukurtas turinio puslapio prototipas}
     \label{img:Prototipas}
 \end{figure}
+
+\pagebreak
+\subsection{Realizuoti reikalavimai}
+Prototipo kūrimo metu buvo bandoma įgyvendinti užsibrėžtus reikalavimus svetainei ir atsižvelgti į projektavimo gaires tam, kad sukurta svetainė neturėtų pradinės sistemos trūkumų ir kūrimo metu nekiltų kitų panaudojamumo trūkumų. Gautasis prototipas įgyvendina šiuos reikalavimus ir projektavimo gaires: 
+\begin{enumerate}
+	\item Nefunkcinį reikalavimą 5.2.1 - paieškos laukas turi tik vieną įvedimo lauką ir mygtuką, gali būti operuojamas pele ir klaviatūra.
+	\item Nefunkcinį reikalavimą 5.2.2 - į paieškos lauką galima įvesti teoriškai neribotą simbolių kiekį
+	\item Nefunkcinį reikalavimą 5.2.3 - paieškos laukas yra viršuje dešinėje
+	\item Projektavimo gairė 5.3.2 - galima peržiūrėti visus navigacijos elementus neatidarant kito puslapio
+	\item Projektavimo gairė 5.3.3 - registraciją pas gydytoją patalpinta viršutinėje navigacijos juostoje, kad būtų pasiekiama iš visų puslapių
+	\item Projektavimo gairė 5.3.5 - sukurtas paspaudžiamas D.U.K. simbolis, prie kurio galima įdėti nuorodą į D.U.K. sekciją
+	\item Projektavimo gairė 5.3.6 - sukurtas paspaudžiamas matomumo simbolis, prie kurio galima prikabinti JavaScript kodą, kuris pakeistų puslapio elementų stilistiką (spalvą, šriftą, šrifto dydį), kad šie būtų geriau matomi žmonėms su regos sutrikimais
+	\item Projektavimo gairė 5.3.8 - nuorodos tekste, navigacijos elementai ir navigacijos slankymo mygtukas pakeičia spalvą užvedus pelę
+	\item Projektavimo gairė 5.3.9 - antraštėje sukurtas paspaudžiamas logo ir puslapio pavadinimas, prie kurio galima pridėti nuorodą į pagrindinį puslapį
+	\item Projektavimo gairė 5.3.10 - nuolatiniai puslapiai sudėti į meniu, sukurta nuoroda į registraciją puslapio viršuje
+	\item Projektavimo gairė 5.3.13 - navigacijos sistema yra plati ir sekli
+	\item Projektavimo gairė 5.3.15 - navigacijos skirtukai reaguoja į pelės užvedimą ir turi krypties ženklą žymintį plečiamumą
+	\item Projektavimo gairė 5.3.18 - navigacijos kategorijos pavadintos taip, kad tiksliai apibūdintų informaciją viduje
+	\item Projektavimo gairė 5.3.21 - tekste įdėta nuoroda į susijusį skyrių
+	\item Projektavimo gairė 5.3.22 - naršyklės „atgal“ mygtukas grąžina į praėjusį puslapį
+\end{enumerate}
 
 \sectionnonum{Rezultatai}
 Šiame darbe:

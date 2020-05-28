@@ -30,21 +30,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.}Navigacijos meniu}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.}Svetainės prototipo kūrimo procesas}{22}% 
+\contentsline {section}{\numberline {7.}Svetainės prototipas}{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai}{24}% 
+\contentsline {subsection}{\numberline {7.1.}Kūrimo procesas}{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Išvados}{25}% 
+\contentsline {subsection}{\numberline {7.2.}Realizuoti reikalavimai}{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{26}% 
+\contentsline {section}{Rezultatai}{25}% 
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {section}{Išvados}{26}% 
 \defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{Šaltiniai}{27}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -78,4 +74,12 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{27}% 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\MakeUppercase {Priedai}}{28}% 
